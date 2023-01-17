@@ -3,7 +3,7 @@ stand_alone: true
 ipr: trust200902
 cat: info
 submissiontype: IETF
-area: Security
+area: "Security"
 wg: LAMPS f
 
 docname: draft-vaira-lamps-pq-use-cases-latest
