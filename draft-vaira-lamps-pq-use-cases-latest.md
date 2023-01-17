@@ -6,9 +6,9 @@ submissiontype: IETF
 area: Security
 wg: LAMPS f
 
-docname: draft-vaira-lamps-pq-use-cases-latest
+docname: draft-vaira-lamps-pq-use-cases
 
-title: Post-quantum use casessdfsdf
+title: Post-quantum use case
 abbrev: PQ use cases
 lang: en
 kw:
