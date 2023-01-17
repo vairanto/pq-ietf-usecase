@@ -8,11 +8,11 @@ wg: LAMPS f
 
 docname: draft-vaira-lamps-pq-use-cases-latest
 
-title: Post-quantum use casessdfsdf
+title: Post-quantum use case
 abbrev: PQ use cases
 lang: en
 kw:
-  - post-quantum cryptographysdf
+  - post-quantum cryptography
   - post-quantum use cases
 author:
 - role: editor
@@ -85,7 +85,7 @@ The main aspects of the problem space are:
 
 - Public Key Infrastructures and digital Signing Services will have to be upgraded with post-quantum capabilities long before they will be required.
 
-- To the authors' knowledge, very limited discussions are taking place in public working groups, to discuss about post-quantum relevant use cases. This list may be of help in defining recommendations for businesses or organization in defining their post-quantum deployment strategies. 
+- To the authors' knowledge, very limited discussions are taking place in public working groups, to discuss about post-quantum relevant use cases. This list may be of help in defining recommendations for businesses or organization in defining their post-quantum deployment strategies.
 
 ## Scope
 
@@ -148,7 +148,7 @@ Firmware, as defined in the {{RFC4949}}, is: computer programs and data stored i
 Support for secure firmware update is key to ensure crypto-agility and that a device is operable in the field for long time, for example in industrial applications a device may be in the field for several decades.
 The following tasks may be carried out as part of a firmware update:
 
-- new trust anchors may be rolled out as part of firmware updates and, 
+- new trust anchors may be rolled out as part of firmware updates and,
 
 - cryptographic algorithms capabilities can be updated with a firmware update.
 
@@ -166,7 +166,7 @@ At a high level the signature process can be described with the following steps:
 
 Typically the Signing Service hosts the signing private key in a highly secure environment, e.g. in a Hardware Security Modules (HSM) and performs auditable access control.
 
-~~~~~~~~~~                                              
+~~~~~~~~~~
 +-------------------------------------------------------+
 |                         +---------------------------+ |
 |                         |   +-------------------+   | |
@@ -182,7 +182,7 @@ Typically the Signing Service hosts the signing private key in a highly secure e
 |                         |   High security network   | |
 | OEM network             +---------------------------+ |
 +-------------------------------------------------------+
-~~~~~~~~~~                                              
+~~~~~~~~~~
 {: #Central-sig-serv title="central Signing Service"}
 
 In the previous figure all the signing entities, hence the entire signing process, are controlled by the Manufacturer but similar constrains and considerations applies if the Signing Service is provided by a third party. Further security considerations have to be made on the communication channels involved in the exchanges that are required to implement the signature workflow.
@@ -190,7 +190,7 @@ Additionally, the signing process described is very generic and not restricted t
 
 ### Signature validation
 
-To install a firmware update the target device will have first to successfully validate the firmware signature. The validation of the firmware signature, and its associated trust chain if applicable, will be performed against a Trust Anchor. The TA can be a X.509 certificate (or a proprietary format certificate), a plain public key or a hash of a combination of both. In general the Trust Anchor format is highly dependent on the security measures implementation by the OEM.  
+To install a firmware update the target device will have first to successfully validate the firmware signature. The validation of the firmware signature, and its associated trust chain if applicable, will be performed against a Trust Anchor. The TA can be a X.509 certificate (or a proprietary format certificate), a plain public key or a hash of a combination of both. In general the Trust Anchor format is highly dependent on the security measures implementation by the OEM.
 An additional aspect to consider is how can the device "trust" the Trust Anchor. Typically, for hardware devices, this is done by injecting the Trust Anchor during manufacturing time and "burning" it into the hardware. Usually this also means that there is no simple mechanism that would allow to replace the Trust Anchor, e.g. in case the underlaying cryptography is no longer considered secure. Alternatively the Trust Anchor may be deployed via a firmware/software update, and to validate the signature an already trusted Trust Anchor must be present. If this approach is not viable then the initial trust must be established by using ad-hoc processes, e.g. a trusted operator may manually install the update in a trusted environment.
 
 ### Category
@@ -232,7 +232,7 @@ AV: an example is provided by "ETSI EN 319 142-1" (and "ETSI EN 319 142-2"), the
 
 ## CMS (S/MIME)
 
-EDNOTE6: You can do infinite nesting in CMS. 
+EDNOTE6: You can do infinite nesting in CMS.
 
 EDNOTE7: The difficulty here will be non-uniform adoption: there are many many many email clients in the world at varying levels of maturity and maintenance. It is expected that some email clients will support PQ algorithms quickly while others may take more time or never adopt them fully. Suggestion to IETF: Study be put into RFC5652 the Cryptographic Message Syntax into signing messages with multiple signatures in a way that un-supported signatures will be ignored (likely this already “just works”). Email encryption probably requires either a flag day (you simply cannot encrypt a message for a recipient if you do not understand their PQ certificate)
 
@@ -243,14 +243,14 @@ EDNOTE7: The difficulty here will be non-uniform adoption: there are many many m
 EDNOTE8: The use cases in section 2.1.x do not actually mention post-quantum, but you do a little bit in 2.2. I was expecting at least some analysis of whether the use case will present particular challenges to adoption of post-quantum. This, I think, is where the interesting discussion will happen.
 AV: as discussed in our call the plan, for the time being, is to defer these discussions to a follow up document to avoid tackling too much content at once.
 
-EDNOTE9: TO-DOs: 
+EDNOTE9: TO-DOs:
 
 - add additional post-quantum relevant use cases which cover aspects not covered so far,
 - identify additional parties that would like to join this effort,
 - any party that would be interested in contributing in this work may add additional post-quantum relevant use cases that are closer to her experience/field,
 - the goal is to cover as much ground as possible in terms of use cases and to be able to define categories of use cases. A possible follow-up document could come up with proposals about which set of post-quantum algorithms, certificate-type, PKI/Signature Service component, etc. is the best fit for the give use case,
 - this document should provide the ground for discussions in other documents where more analysis about whether each use case will have problematic points with regards to PQ migration and whether the IETF needs to take an active role in updating protocols or providing operational guidance,
-- additionally, this document can  be referenced in the technical discussions to help frame/structure the discussion, where needed. 
+- additionally, this document can  be referenced in the technical discussions to help frame/structure the discussion, where needed.
 
 # IANA Considerations {#IANA}
 
