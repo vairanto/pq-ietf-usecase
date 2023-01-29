@@ -1,0 +1,83 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-01-29T01:46:39.300554+00:00",
+  "repo": "vairanto/pq-ietf-usecase",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOInB1ss5Hih4U",
+      "title": "Build tweaks",
+      "url": "https://github.com/vairanto/pq-ietf-usecase/pull/1",
+      "state": "MERGED",
+      "author": "ralienpp",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Apply some small changes to pass sanity checks in the automated build process",
+      "createdAt": "2023-01-17T12:53:07Z",
+      "updatedAt": "2023-01-17T13:39:24Z",
+      "baseRepository": "vairanto/pq-ietf-usecase",
+      "baseRefName": "main",
+      "baseRefOid": "4a9fe2818748d9fb93e908eeb59acaa85e2adbdb",
+      "headRepository": "vairanto/pq-ietf-usecase",
+      "headRefName": "build-tweaks",
+      "headRefOid": "92328cd01fea0780b012b23a0e5e4c1a9fd4f5b2",
+      "closedAt": "2023-01-17T13:39:08Z",
+      "mergedAt": "2023-01-17T13:39:08Z",
+      "mergedBy": "vairanto",
+      "mergeCommit": {
+        "oid": "364187255f32da265cd440637c24af8985016f97"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
