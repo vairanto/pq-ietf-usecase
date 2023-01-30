@@ -3,15 +3,15 @@ stand_alone: true
 ipr: trust200902
 cat: info
 submissiontype: IETF
-area: "Security"
-workgroup: LAMPS f
+# area: "Security"
+# workgroup: LAMPS f
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: "vairanto/pq-ietf-usecase"
+  latest: "https://vairanto.github.io/pq-ietf-usecase/draft-vaira-lamps-pq-use-cases.html"
 
 docname: draft-vaira-lamps-pq-use-cases-latest
 
