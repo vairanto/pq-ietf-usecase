@@ -4,7 +4,14 @@ ipr: trust200902
 cat: info
 submissiontype: IETF
 area: "Security"
-wg: LAMPS f
+workgroup: "Limited Additional Mechanisms for PKIX and SMIME"
+venue:
+  group: "Limited Additional Mechanisms for PKIX and SMIME"
+  type: "Working Group"
+  mail: "spasm@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/spasm/"
+  github: "vairanto/pq-ietf-usecase"
+  latest: "https://vairanto.github.io/pq-ietf-usecase/draft-vaira-lamps-pq-use-cases.html"
 
 docname: draft-vaira-lamps-pq-use-cases-latest
 
