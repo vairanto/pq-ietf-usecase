@@ -160,7 +160,7 @@ The following tasks may be carried out as part of a firmware update:
 - cryptographic algorithms capabilities can be updated with a firmware update.
 
 It will not be generally possible to upgrade the security capabilities of each device because, different devices exhibit different constrains in terms of resources, deployment environment (physically accessible or not) and costs. In some cases it might be a deliberate business decision to keep a device "simple" and to not support any security update via firmware updates altogether.
-ddd
+
 ### Signature creation
 
 Firmware updates are typically signed by the OEM and the signature workflow can be carried by using a Public Key Infrastructure and Signing Service. These services may be owned and operated directly by the OEM or by a third party.
@@ -232,7 +232,7 @@ EDNOTE3: The general use-case covering bulk data encrypted with a public key - s
 
 EDNOTE4: bulk data encryption in transit and rest 1) via negotiated sessions (Ex.: TLS / IKE) and 2) via non-negotiated public key encryption (Ex.: CMS, JOSE / COSE)
 
-##Timestamping
+## Timestamping
 
 EDNOTE5: RFC 4998 - we could study this to understand how to re-sign old timestamp messages. Question: does re-signing give protection against a full break of the original algorithm.
 AV: an example is provided by "ETSI EN 319 142-1" (and "ETSI EN 319 142-2"), the standards define PDF advanced electronic signatures which have legal value EU. I assume that this concept may be extended to similar use cases, i.e., wherever long term validation is required new time-stamps may be added using post-quantum cryptography
@@ -241,7 +241,7 @@ AV: an example is provided by "ETSI EN 319 142-1" (and "ETSI EN 319 142-2"), the
 
 EDNOTE6: You can do infinite nesting in CMS.
 
-EDNOTE7: The difficulty here will be non-uniform adoption: there are many many many email clients in the world at varying levels of maturity and maintenance. It is expected that some email clients will support PQ algorithms quickly while others may take more time or never adopt them fully. Suggestion to IETF: Study be put into RFC5652 the Cryptographic Message Syntax into signing messages with multiple signatures in a way that un-supported signatures will be ignored (likely this already “just works”). Email encryption probably requires either a flag day (you simply cannot encrypt a message for a recipient if you do not understand their PQ certificate)
+EDNOTE7: The difficulty here will be non-uniform adoption: there are many many many email clients in the world at varying levels of maturity and maintenance. It is expected that some email clients will support PQ algorithms quickly while others may take more time or never adopt them fully. Suggestion to IETF: Study be put into RFC5652 the Cryptographic Message Syntax into signing messages with multiple signatures in a way that un-supported signatures will be ignored (likely this already "just works"). Email encryption probably requires either a flag day (you simply cannot encrypt a message for a recipient if you do not understand their PQ certificate)
 
 
 
