@@ -2,7 +2,7 @@
 
 
 
-LAMPS f                                                    A. Vaira, Ed.
+Limited Additional Mechanisms for PKIX and SMIME           A. Vaira, Ed.
 Internet-Draft                                              H. Brockhaus
 Intended status: Informational                                Siemens AG
 Expires: 3 August 2023                                      M. Ounsworth
@@ -28,14 +28,20 @@ Abstract
    in future discussions that aim at define post-quantum adoption
    strategies on a per use case basis.
 
-Discussion Venues
+About This Document
 
    This note is to be removed before publishing as an RFC.
 
+   The latest revision of this draft can be found at
+   https://vairanto.github.io/pq-ietf-usecase/draft-vaira-lamps-pq-use-
+   cases.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-vaira-lamps-pq-use-cases/.
+
    Discussion of this document takes place on the Limited Additional
    Mechanisms for PKIX and SMIME Working Group mailing list
-   (spasm@ietf.org), which is archived at
-   https://mailarchive.ietf.org/arch/browse/spasm/.
+   (mailto:spasm@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/spasm/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/spasm/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/vairanto/pq-ietf-usecase.
