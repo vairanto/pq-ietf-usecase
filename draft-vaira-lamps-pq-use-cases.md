@@ -195,7 +195,7 @@ An additional aspect to consider is how can the device "trust" the Trust Anchor.
 
 ### Category
 
-This use case can be cetegorized as:
+This use case can be categorized as:
 
 - "passive negotiation", if the entity that validates the firmware signature has a mechanism to update the Trust Anchor relied upon during signature validation. This is due to the fact that the SW package may be delivered with multiple signatures that use either traditional and/or post-quantum cryptography;
 - "non agile", if the entity that validates the signature cannot update the Trust Anchor.
