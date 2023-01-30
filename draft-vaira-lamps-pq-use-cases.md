@@ -3,13 +3,13 @@ stand_alone: true
 ipr: trust200902
 cat: info
 submissiontype: IETF
-# area: "Security"
-# workgroup: LAMPS f
+area: "Security"
+workgroup: "Limited Additional Mechanisms for PKIX and SMIME"
 venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
+  group: "Limited Additional Mechanisms for PKIX and SMIME"
+  type: "Working Group"
+  mail: "spasm@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/spasm/"
   github: "vairanto/pq-ietf-usecase"
   latest: "https://vairanto.github.io/pq-ietf-usecase/draft-vaira-lamps-pq-use-cases.html"
 
