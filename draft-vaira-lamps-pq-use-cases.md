@@ -4,7 +4,14 @@ ipr: trust200902
 cat: info
 submissiontype: IETF
 area: "Security"
-wg: LAMPS f
+workgroup: LAMPS f
+venue:
+  group: WG
+  type: Working Group
+  mail: WG@example.com
+  arch: https://example.com/WG
+  github: USER/REPO
+  latest: https://example.com/LATEST
 
 docname: draft-vaira-lamps-pq-use-cases-latest
 
