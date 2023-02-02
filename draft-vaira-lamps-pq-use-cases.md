@@ -64,8 +64,7 @@ informative:
 
 --- abstract
 
-Post-quantum cryptographic algorithms will be the building blocks of security protocols, digital signatures, X.509 certificates, etc., therefore, these algorithms will be deployed in a large number of heterogeneous use cases. Additionally, their deployment will take place in multiple ways, for example in a X.509 certificate, post-quantum cryptographic algorithms may be used within a traditional or composite X.509 certificate.
-The intent of this document is to collect and describe a set of "representative" use cases, that are affected by post-quantum. This document could be used and referenced in future discussions that aim at define post-quantum adoption strategies on a per use case basis.
+This document provides a comprehensive overview of the various use cases for post-quantum cryptography. With the increasing reliance on these algorithms in securing digital systems such as security protocols, digital signatures, and X.509 certificates, the document serves as a valuable resource for organizations looking to develop post-quantum adoption strategies. The document identifies and analyzes the most critical applications and provides insights into how post-quantum cryptography can be effectively integrated into various systems.
 
 --- middle
 
