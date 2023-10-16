@@ -64,7 +64,7 @@ informative:
 
 --- abstract
 
-This document provides a comprehensive overview of the various use cases for post-quantum cryptography. With the increasing reliance on these algorithms in securing digital systems such as security protocols, digital signatures, and X.509 certificates, the document serves as a valuable resource for organizations looking to develop post-quantum adoption strategies. The document identifies and analyzes the most critical applications and provides insights into how post-quantum cryptography can be effectively integrated into various systems.
+This document aims at providing a comprehensive overview of the various use cases for post-quantum cryptography. With the increasing reliance on these algorithms in securing digital systems such as security protocols, digital signatures, and X.509 certificates, the document serves as a valuable resource for organizations looking to develop post-quantum adoption strategies. The document identifies and analyzes the most critical applications and provides insights into how post-quantum cryptography can be effectively integrated into various systems.
 
 --- middle
 
