@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-10-15T01:20:34.116763+00:00",
+  "timestamp": "2023-10-17T01:16:10.493349+00:00",
   "repo": "vairanto/pq-ietf-usecase",
   "labels": [
     {
@@ -187,6 +187,34 @@
       "mergedBy": "ralienpp",
       "mergeCommit": {
         "oid": "eaf3e1dedf3cb6bf10cf0f5985b9c7352ed6497c"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOInB1ss5c4bfu",
+      "title": "Apply trivial change to test the workflow",
+      "url": "https://github.com/vairanto/pq-ietf-usecase/pull/6",
+      "state": "MERGED",
+      "author": "ralienpp",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-10-16T10:23:07Z",
+      "updatedAt": "2023-10-16T10:25:55Z",
+      "baseRepository": "vairanto/pq-ietf-usecase",
+      "baseRefName": "main",
+      "baseRefOid": "2b6050ed5e9922fd88f265199602e8069868c2b2",
+      "headRepository": "avaira77/pq-ietf-usecase",
+      "headRefName": "test-edit",
+      "headRefOid": "8e74a88d0d84fb360ab95bbb220acd7159433ba8",
+      "closedAt": "2023-10-16T10:24:08Z",
+      "mergedAt": "2023-10-16T10:24:08Z",
+      "mergedBy": "ralienpp",
+      "mergeCommit": {
+        "oid": "5377cf5dbc29d992bd99137c96709e7232b9cbac"
       },
       "comments": [],
       "reviews": []
